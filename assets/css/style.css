@@ -1,0 +1,12 @@
+.rate-item-four-content__icon {
+    --star-active: #FE7B5E;
+    --star-innactive: #E0E0E0;
+    --star-size: 32px;
+    fill: var(--star-innactive);
+    height: calc(var(--star-size) - 1px);
+    width: var(--star-size);
+}
+
+.rate-item-four-content__icon--active {
+    fill: var(--star-active);
+}
